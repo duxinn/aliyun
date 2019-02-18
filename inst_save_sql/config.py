@@ -19,10 +19,10 @@ LOG = './log/config.log'
 
 # 告警数据
 alert_data = {
-        'id': 'ggzh',
-        'level': '13',
-        'dep': 'du-op',
-        'env': 'prod',
+        'id': 'xxx',
+        'level': 'xx',
+        'dep': 'xx',
+        'env': 'xxx',
         'alert_level': '低',
         'alert_business': '阿里云ECS情况统计',
         'alert_function': 'config.py',
@@ -61,7 +61,7 @@ def send_alarm_v2(alert_data, string):
     alert_data.setdefault("sign", sign_string_b.hexdigest())
     data = json.dumps(alert_data)
     try:
-        resp = requests.post('http://osa.shuzilm.cn/alarm_v2', data=data)
+        resp = requests.post('http://xxx', data=data)
         code = json.loads(resp.text)['code']
     except Exception as e:
         write_log2('send_alarm_v2发送告警异常, e=' + str(e) + '\n' + str(traceback.format_exc()))

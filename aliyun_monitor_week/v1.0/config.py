@@ -104,8 +104,7 @@ def sign_gen(params):
 
 
 class DBUtil:
-    def __init__(self, host="127.0.0.1", user='root', password='password',
-                 database='aliyun_monitor', port=3306, charset='utf8'):
+    def __init__(self, **aliyun_monitor):
 
         conn = pymysql.connect(host=host, port=port, user=user, password=password, database=database, charset=charset)
         if conn:
