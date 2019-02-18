@@ -30,10 +30,10 @@ alert_data = {
     }
 
 aliyun_monitor = {
-    'host': '172.17.146.238',
+    'host': 'xxx',
     'port': 3306,
     'user': 'root',
-    'password': 'Sui@911120',
+    'password': 'xxx',
     'database': 'aliyun_monitor',
     'charset': 'utf8'
 }
