@@ -17,6 +17,7 @@ inst_save_sql  对于阿里云的云服务器、云数据库等实例，通过�
 
 
 aliyun_monitor_week 将数据库中实例的各监控指标查出来，做成气泡图、柱状图，以邮件的形式每周发送。
+
     展示：
         见图片  aliyun_monitor_week_0  aliyun_monitor_week_1
           
