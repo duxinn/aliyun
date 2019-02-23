@@ -23,7 +23,7 @@ aliyun_monitor_week 将数据库中实例的各监控指标查出来，做成气
         见图片  aliyun_monitor_week_0  aliyun_monitor_week_1
           
 
-bandwidth_monitor  负载均衡带宽自动调节程序，根据出口流量，将带宽调节为110，监测异常时调为最大。
+bandwidth_monitor  负载均衡带宽自动调节程序，根据出口流量，将带宽调节为一定阈值，监测异常时调为最大。
 
 
 
