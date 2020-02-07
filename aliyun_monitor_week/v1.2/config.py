@@ -12,8 +12,8 @@ import json
 import pymysql
 import requests
 
-AccessKeyId = 'LTAINqZyrzLZAaSP'
-AccessKeySecret = 'AEVnMIC6sIhzj6bnLLlOIhSH2v3jhC'
+AccessKeyId = 'xxx'
+AccessKeySecret = 'xxx'
 
 
 # 告警数据
